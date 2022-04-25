@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: Poppins;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,102,255,1) 0%, rgba(245,81,111,1) 100%);
+}
+body{
+    height: 100vh;
+}
+
+header h1{
+    font-size: 3rem;
+    padding: 20px;
+    padding-bottom: 0;
+}
+header p{
+    font-size: 2rem;
+    padding: 20px;
+}
+nav ol{
+    font-size: 2rem;
+    margin-left: 20px;
+    color: white;
+}
+nav ol li a{
+    font-size: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: white
+}
+
+
+@media (max-width: 900px) {
+    header h1{
+        font-size: 2.7rem;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
