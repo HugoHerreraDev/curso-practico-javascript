@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio</title>
+    <link rel="stylesheet" href="./figuras.css">
+</head>
+<body>
+    <header class="header-estadistica">
+        <h1 class="titulo-estadistica">Promedio mediana y moda</h1>
+        <p>Este es el tercer taller del curso práctico de JavaScript</p>
+    </header>
+    <main>
+        <section class="main-container">
+            <section class="figura-container cuadrado-container">
+                <h2>Promedio de una serie de números</h2>
+                <form action="">
+                    <section class="form-content-promedio">
+                        <label for="inputNumerosPromedio">Ingresa los números separador por comas:</label>
+                        <input type="text" id="inputNumerosPromedio"/><br/>
+                    </section>
+                    <section class="botones">
+                        <button class="button" type="button" onclick="onClickCalcularPromedio()">Calcular el promedio</button>
+                    </section>
+                    <p class="resultado" id="resultado-promedio"></p>
+                </form>
+            </section>
+            <section class="figura-container cuadrado-container">
+                <h2>Mediana de una serie de números</h2>
+                <form action="">
+                    <section class="form-content-promedio">
+                        <label for="inputNumerosMediana">Ingresa los números separador por comas:</label>
+                        <input type="text" id="inputNumerosMediana"/><br/>
+                    </section>
+                    <section class="botones">
+                        <button class="button" type="button" onclick="onClickCalcularMediana()">Calcular la mediana</button>
+                    </section>
+                    <p class="resultado" id="resultado-mediana"></p>
+                </form>
+            </section>
+            <section class="figura-container cuadrado-container">
+                <h2>Moda de una serie de números</h2>
+                <form action="">
+                    <section class="form-content-promedio">
+                        <label for="inputNumerosModa">Ingresa los números separador por comas:</label>
+                        <input type="text" id="inputNumerosModa"/><br/>
+                    </section>
+                    <section class="botones">
+                        <button class="button" type="button" onclick="onClickCalcularModa()">Calcular la moda</button>
+                    </section>
+                    <p class="resultado" id="resultado-moda"></p>
+                </form>
+            </section>
+            <section class="figura-container cuadrado-container">
+                <h2>Media Geométrica de una serie de números</h2>
+                <form action="">
+                    <section class="form-content-promedio">
+                        <label for="inputNumerosMediaGeometrica">Ingresa los números separador por comas:</label>
+                        <input type="text" id="inputNumerosMediaGeometrica"/><br/>
+                    </section>
+                    <section class="botones">
+                        <button class="button" type="button" onclick="onClickCalcularMediaGeometrica()">Calcular la media geométrica</button>
+                    </section>
+                    <p class="resultado" id="resultado-media-geometrica"></p>
+                </form>
+            </section>
+        </section>
+        <script src="./promedio.js"></script>
+    </main>
+</body>
+</html>
